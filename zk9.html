@@ -1,0 +1,93 @@
+<!Doctype html>
+
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>Kalkulator Zakat</title>
+	<center>
+		<a href="index.html">
+			<img src="img/log.png" alt="jaringan jelek" height="50%" width="50%"></img>
+		</a>
+	</center>
+	<link rel="stylesheet" href="zk1.css" type="img/css">
+</head>
+
+<body>
+<script language="Javascript" type="text/javascript">
+
+function nilai()
+{
+	if(o.value=='Hujan' && a.value>=900)
+	{c.value=eval(a.value)/10+' kilo gram';}
+	else if(o.value=='Pengairan' && a.value>=900)
+	{c.value=eval(a.value)/20+' kilo gram'}
+	else if(o.value=='Pilih' && a.value>=900)
+	{c.value='Masukan Pilihan'}
+	else
+	{c.value='anda belum mencapai nishab';}
+}
+function kosong()
+{
+	form.a.value=""
+	form.a.focus()
+}
+
+  </script>
+<div class="gil">
+	<center>
+		<img src="img/zk88.png" class="img-responsive" alt="jaringan jelek" height="50%" width="50%">
+		</img>
+	</center>
+	<div class="ra">
+		<p>
+			Nishabnya ialah 5 wasaq, berdasarkan sabda Rasulullah shallallahu ‘alaihi wa sallam,
+			<br>
+			<br>
+			“Zakat itu tidak ada yang kurang dari 5 wasaq.” (Muttafaqun ‘alaihi)
+			<br>
+			<br>
+			Satu wasaq setara dengan 60 sha’ (menurut kesepakatan ulama, 
+			silakan lihat penjelasan Ibnu Hajar dalam Fathul Bari 3/364). 
+			Sedangkan 1 sha’ setara dengan 2,175 kg atau 3 kg. Demikian menurut 
+			takaaran Lajnah Daimah li Al Fatwa wa Al Buhuts Al Islamiyah 
+			(Komite Tetap Fatwa dan Penelitian Islam Saudi Arabia). Berdasarkan 
+			fatwa dan ketentuan resmi yang berlaku di Saudi Arabia, maka nishab zakat 
+			hasil pertanian adalah 300 sha’ x 3 kg = 900 kg. Adapun ukuran yang dikeluarkan,
+			bila pertanian itu didapatkan dengan cara pengairan (atau menggunakan alat penyiram tanaman), 
+			maka zakatnya sebanyak 1/20 (5%). Dan jika pertanian itu diairi dengan hujan (tadah hujan), 
+			maka zakatnya sebanyak 1/10 (10%). Ini berdasarkan sabda Rasulullah shallallahu ‘alaihi wa sallam.
+		</p>
+	</div>
+	<center>
+	<form action="" method="post" name="form">  
+<center>
+    <legend><b>Kalkulator Sederhana</b></legend> 
+<table border="0">  
+  <tr>  
+    <td align="right" style="color:white;">Masukkan Jumlah Pertanian Anda</td> 
+    <td>:</td>  
+    <td><input name="a" id="a" type="number" maxlength="15">
+	<select name="select" id="o">
+      <option value="Pilih">--Pilih--</option>
+      <option value="Hujan">Hujan</option>
+      <option value="Pengairan">Pengairan</option>
+    </select>
+	</td>
+  </tr>
+  
+  <tr>  
+    <td align="right" valign="top" style="color:white;">Anda Akan Membayar Zakat Sebesar</td>
+    <td valign="top">:</td>  
+    <td><input type="a" name="button" id="c" style="height:50px;font-size:18px;" size="25"> 
+	<input name="button" type="button" onclick="nilai()" value="="/>
+	<input type="reset" value="clear" name="clear" />
+	</td>
+  </tr>  
+</table>
+</form>
+</center>
+</center>
+</div>
+</body>
+	

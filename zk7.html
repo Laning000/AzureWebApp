@@ -1,0 +1,110 @@
+<!Doctype html>
+
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>Kalkulator Zakat</title>
+	<center>
+		<a href="index.html">
+			<img src="img/log.png" alt="jaringan jelek" height="50%" width="50%"></img>
+		</a>
+	</center>
+	<link rel="stylesheet" href="zk7.css" type="img/css">
+</head>
+
+<body>
+<script language="Javascript" type="text/javascript">
+
+function nilai()
+{
+	if(a.value>=40 && a.value<120)
+	{c.value='1 ekor kambing';}
+	else if(a.value>=120 && a.value<=200)
+	{c.value='2 ekor kambing';}
+	else if(a.value>201 && a.value<=300)
+	{c.value='3 ekor kambing';}
+	else if(a.value<40)
+	{c.value='anda belum mencapai nishab';}
+	else
+	{c.value='setiap 100, 1 ekor kambing';}
+}
+function kosong()
+{
+	form.a.value=""
+	form.a.focus()
+}
+
+  </script>
+<div class="gil">
+	<center>
+		<img src="img/zk77.png" class="img-responsive" alt="jaringan jelek" height="50%" width="50%">
+		</img>
+	</center>
+	<div class="ra">
+		<p>
+			Nishab kambing adalah 40 ekor.<br>
+			Cara perhitungannya adalah sebagai berikut:<br>
+			<center>
+			<table>
+			<style>
+				td, th{
+					color:blue;
+				}
+			</style>
+				<tr>
+					<th>jumlah Kambing</th>
+					<th>Jumlah Yang Dikeluarkan</th>
+				</tr>
+				<tr>
+					<td>40 ekor</td>
+					<td>1 ekor kambing</td>
+				</tr>
+				<tr>
+					<td>120 ekor</td>
+					<td>2 ekor kambing</td>
+				</tr>
+				<tr>
+					<td>201 – 300 ekor</td>
+					<td>3 ekor kambing</td>
+				</tr>
+				<tr>
+					<td>> 300 ekor</td>
+					<td>setiap 100, 1 ekor kambing</td>
+				</tr>
+			</table>
+			</center>
+		</p>
+		<p>
+			Keterangan:<br>
+			<ul style="color:white;">1.	Tabi’ dan tabi’ah adalah sapi jantan dan betina yang berusia setahun.</ul>
+			<ul style="color:white;">2.	Musinnah adalah sapi betina yang berusia 2 tahun.</ul>
+			<ul style="color:white;">3.	Setiap 30 ekor sapi, zakatnya adalah 1 ekor tabi’ dan setiap 40 <br>ekor sapi, zakatnya adalah 1 ekor musinnah.</ul>
+		</p>
+	</div>
+
+	<center>
+	<form action="" method="post" name="form">  
+<center>
+    <legend><b>Kalkulator Sederhana</b></legend> 
+<table border="0">  
+  <tr>  
+    <td align="right" style="color:white;">Masukkan Jumlah Kambing Anda</td> 
+    <td>:</td>  
+    <td><input name="a" id="a" type="number" maxlength="15"></td>
+  </tr>  
+  <tr>  
+    <td align="right" valign="top" style="color:white;">Anda Akan Membayar Zakat Sebesar</td>
+    <td valign="top">:</td>  
+    <td><input type="text" name="button" id="c" style="height:50px;font-size:18px;" size="25"> 
+	<input name="button" type="button" onclick="nilai()" value="="/>
+	<input type="reset" value="clear" name="clear" />
+	</td>
+  </tr>  
+</table>
+</form>
+</center>
+</center>
+</div>
+</body>
+	

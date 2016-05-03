@@ -1,0 +1,59 @@
+html{
+	font-family:times,serif;
+}
+title::before{
+	content:url(img/log.png);
+}
+body{
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url("img/bcc.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:100%;
+	width:100%;
+}
+form{
+	margin-top:-30%;
+}
+.satu{
+	background-color:rgb(60, 189, 217);
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+p{
+	color:white;
+}
+b{
+	color:#080055;
+}
+.gil{
+  height:50%;
+  width:100%;
+ }
+ ul{
+	 color:white;
+ }
+
+.ra{
+	padding:50% 29% 30% 28%;
+	margin-top:-94%;
+	color:black;
+	text-align:justify;
+	text-indent:30px;
+	font-size:17px;
+	background-image:url("img/bcc.jpg");
+	display:block;
+}
+li{
+	color:black;
+	font-size:17px;
+}
+footer{
+	margin-top:-5%;
+}
+.col{
+	
+}

@@ -1,0 +1,131 @@
+<!Doctype html>
+
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>Kalkulator Zakat</title>
+	<center>
+		<a href="index.html">
+			<img src="img/log.png" alt="jaringan jelek" height="50%" width="50%"></img>
+		</a>
+	</center>
+	<link rel="stylesheet" href="zk1.css" type="img/css">
+</head>
+<body>
+ <script language="Javascript" type="text/javascript">
+
+function nilai()
+{
+	if(a.value>=30 && a.value<=39)
+	{c.value='1 ekor tabi atau tabiah';}
+	else if(a.value>=40 && a.value<=59)
+	{c.value='1 ekor musinnah';}
+	else if(a.value>=60 && a.value<=69)
+	{c.value='2 ekor tabi atau tabiah';}
+	else if(a.value>=70 && a.value<=79)
+	{c.value='1 ekor tabi dan 1 ekor musinnah';}
+	else if(a.value>=80 && a.value<=89)
+	{c.value='2 ekor musinnah';}
+	else if(a.value>=90 && a.value<=99)
+	{c.value='2 ekor tabi atau tabiah';}
+	else if(a.value>=100 && a.value<=100)
+	{c.value='2 ekor tabi dan 2 ekor musinnah';}
+	else if(a.value<30)
+	{c.value='anda belum mencapai nishab';}
+	else
+	{c.value='30/40=1 tabi/musinnah';}
+}
+function kosong()
+{
+	form.a.value=""
+	form.a.focus()
+}
+
+  </script>
+<div class="gil">
+	<center>
+		<img src="img/zk66.png" class="img-responsive" alt="jaringan jelek" height="50%" width="50%">
+		</img>
+	</center>
+	<div class="ra">
+		<p>
+			Nishab sapi adalah 30 ekor. Apabila kurang dari 30 ekor, maka tidak ada zakatnya.<br>
+			Cara perhitungannya adalah sebagai berikut:<br>
+			<br>
+			<center>
+			<table>
+			<style>
+				td, th{
+					color:blue;
+				}
+			</style>
+				<tr>
+					<th>jumlah Sapi</th>
+					<th>Jumlah Yang Dikeluarkan</th>
+				</tr>
+				<tr>
+					<td>30-39 ekor</td>
+					<td>1 ekor tabi’ atau tabi’ah</td>
+				</tr>
+				<tr>
+					<td>40-59 ekor</td>
+					<td>1 ekor musinah</td>
+				</tr>
+				<tr>
+					<td>60 ekor</td>
+					<td>2 ekor tabi’ atau 2 ekor tabi’ah</td>
+				</tr>
+				<tr>
+					<td>70 ekor</td>
+					<td>1 ekor tabi dan 1 ekor musinnah</td>
+				</tr>
+				<tr>
+					<td>80 ekor</td>
+					<td>2 ekor musinnah</td>
+				</tr>
+				<tr>
+					<td>90 ekor</td>
+					<td>3 ekor tabi’</td>
+				</tr>
+				<tr>
+					<td>100 ekor</td>
+					<td>2 ekor tabi’ dan 1 ekor musinnah</td>
+				</tr>
+			</table>
+			</center>
+		</p>
+		<p>
+			Keterangan:<br>
+			<ul style="color:white;">1.	Tabi’ dan tabi’ah adalah sapi jantan dan betina yang berusia setahun.</ul>
+			<ul style="color:white;">2.	Musinnah adalah sapi betina yang berusia 2 tahun.</ul>
+			<ul style="color:white;">3.	Setiap 30 ekor sapi, zakatnya adalah 1 ekor tabi’ dan setiap 40 <br>ekor sapi, zakatnya adalah 1 ekor musinnah.</ul>
+		</p>
+	</div>
+	<br>
+	<br>
+	<center>
+	<form action="" method="post" name="form">  
+<center>
+    <legend><b>Kalkulator Sederhana</b></legend> 
+<table border="0">  
+  <tr>  
+    <td align="right" style="color:white;">Masukkan Jumlah Sapi Anda</td> 
+    <td>:</td>  
+    <td><input name="a" id="a" type="number" maxlength="15"></td>
+  </tr>  
+  <tr>  
+    <td align="right" valign="top" style="color:white;">Anda Akan Membayar Zakat Sebesar</td>
+    <td valign="top">:</td>  
+    <td><input type="text" name="button" id="c" style="height:50px;font-size:18px;" size="25"> 
+	<input name="button" type="button" onclick="nilai()" value="="/>
+	<input type="reset" value="clear" name="clear" />
+	</td>
+  </tr>  
+</table>
+</form>
+</center>
+</center>
+</div>
+</body>
+	

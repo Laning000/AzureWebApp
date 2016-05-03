@@ -1,0 +1,17 @@
+body{
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url("img/bcc.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:100%;
+	width:100%;
+}
+#gil{
+	
+	text-align:center;
+	margin:10px;
+	padding:10px;
+	margin-bottom:10px;
+	
+}
